@@ -1,4 +1,4 @@
-body { 
+body {
     margin: 0;
     padding: 0;
     background: url(bg-nature.jpg);
@@ -9,45 +9,47 @@ body {
     height: 403px;
 }
 
-.avtar{ 
+.avtar {
 
     width: 70px;
     height: 70px;
     position: absolute;
     top: -39px;
     left: 43%;
-    
+
     border-radius: 50%;
 
 }
 
-.login{ 
+.login {
     width: 570px;
     height: 430px;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-sizing: border-box; 
+    box-sizing: border-box;
     border-radius: 30px;
 }
 
-h1{ 
+h1 {
     margin: 35px;
-    padding:0 0 20px; 
+    padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
 }
-.login p { 
+
+.login p {
     margin: 28px;
     padding: 0;
     font-weight: bold;
     font-size: 18px;
 }
 
-.login input[type="text"],input[type="password"] { 
+.login input[type="text"],
+input[type="password"] {
     border: none;
     border-bottom: 1px solid #fff;
     /* background-color: red; */
@@ -59,16 +61,16 @@ h1{
 
 }
 
-.login input { 
+.login input {
     width: 90%;
     margin-bottom: 24px;
     margin-left: 21px;
     text-align: center;
     text-transform: capitalize;
-    
+
 }
 
-.login input[type="submit"] { 
+.login input[type="submit"] {
     border: none;
     outline: none;
     height: 40px;
@@ -76,14 +78,14 @@ h1{
     border-radius: 20px;
 }
 
-.login input:hover[type="submit"] { 
+.login input:hover[type="submit"] {
     background: rgb(212, 24, 24);
     cursor: pointer;
     transition: 700ms;
 
 }
 
-.login a { 
+.login a {
     text-decoration: none;
     font-size: 16px;
     text-align: center;
@@ -91,7 +93,8 @@ h1{
     color: #fff;
     cursor: pointer;
 }
-.login a:hover { 
+
+.login a:hover {
     color: rgb(63, 24, 207);
     font-size: 17px;
     background-color: #fff;
